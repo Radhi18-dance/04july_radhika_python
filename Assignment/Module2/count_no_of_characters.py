@@ -1,3 +1,5 @@
 mystring=input("enter string:")
-char=input("enter string:")
-print(mystring.count(char))
+char=input("enter character:")
+for i in mystring:
+ if i==char: 
+  print(mystring.count(char))
