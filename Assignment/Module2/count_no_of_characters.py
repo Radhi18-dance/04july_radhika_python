@@ -1,5 +1,8 @@
+count=0
 mystring=input("enter string:")
+print(mystring.split())
 char=input("enter character:")
-for i in mystring:
- if i==char: 
-  print(mystring.count(char))
+if char in mystring:
+    print(mystring.count(char))
+else :
+    print("error")
