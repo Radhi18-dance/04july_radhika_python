@@ -1,5 +1,5 @@
 str1=input("enter str1:")
-substr=input("enter substr")
+substr=input("enter substr:")
 count=0
 
 if substr in str1:
