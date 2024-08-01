@@ -6,5 +6,5 @@ print(len(x))
 for i in range(0,len(x)):
     if words==x[i]:
         count=count+1
-print(count)
+print("occurence of word is:",count)
     
