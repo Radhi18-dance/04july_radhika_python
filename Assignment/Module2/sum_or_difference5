@@ -1,0 +1,6 @@
+no1=int(input("enter no1:"))
+no2=int(input("enter no2:"))
+sum=no1+no2
+difference=no1-no2
+if no1==no2 or sum==5 or difference==5:
+    print("true")
