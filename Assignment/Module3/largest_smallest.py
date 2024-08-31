@@ -1,7 +1,7 @@
 mylist1=[]
 sum=0
 element=int(input("enter number :"))
-for i in range(0,element):
+for i in range(element):
     newele=int(input("enter elements:"))
     mylist1.append(newele)
     print(mylist1)
