@@ -6,3 +6,4 @@ for i in range(n):
     mylist.append(val)
 random_item=random.choice(mylist)
 print("randomly selected item:",random_item)
+print(mylist)
