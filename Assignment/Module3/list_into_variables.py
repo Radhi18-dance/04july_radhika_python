@@ -1,5 +1,5 @@
 colour=[]
-var:int
+var=''
 n=int(input("enter size:"))
 for i in range(n):
     val=input("enter values:")
