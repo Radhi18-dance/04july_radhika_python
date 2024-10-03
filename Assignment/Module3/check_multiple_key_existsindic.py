@@ -1,4 +1,5 @@
 my_dict = {}
+key_search=[]
 
 n = int(input("Enter the size of the dictionary: "))
 
@@ -11,14 +12,11 @@ print("Dictionary is:", my_dict)
 
 m = int(input("Enter the number of keys to search for: "))
 
-keys_to_search = []
 for i in range(m):
-    key = input(f"Enter key {i+1} to search for: ")
-    keys_to_search.append(key)
-
-all_keys_exist = all(key in my_dict for key in keys_to_search)
-
-if all_keys_exist:
-    print("All keys exist in the dictionary.")
-else:
-    print("Not all keys exist in the dictionary.")
+    k = input(f"Enter {i+1} key to search for: ")
+    key_search.append(key)
+for k in key_search:
+    if k in key_search:
+        print("key exist in the dictionary.")
+    else:
+        print("key not  exist in the dictionary.")
