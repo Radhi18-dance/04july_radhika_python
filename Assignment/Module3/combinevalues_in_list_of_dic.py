@@ -1,4 +1,3 @@
-#from collections import Counter
 d1={}
 d2={}
 d3={}
@@ -15,11 +14,7 @@ for i in range(n2):
     value = int(input("Enter value for key {}: ".format(key)))
     d2[key] = value
 print("dictionary 2:",d2)
-'''counter = Counter(d1)
-counter.update(d2)
-
-# Print the result
-print(counter)'''
+'''counter = Counter(d1)'''
 a=list(d1.values())
 b=list(d2.values())
 for i in range(len(a)):
@@ -30,5 +25,5 @@ for i in range(len(a)):
 print(f'Dict_1: {d1}\n')
 print(f'Dict_2: {d2}\n')
 
-print('New_dict:' ,list(d3))
-
+print('New_dict:' ,list[dict[d3]])
+    

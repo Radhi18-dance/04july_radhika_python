@@ -14,3 +14,7 @@ list.sort()
 print(f'Dictionary: {mydic}\n')
 
 print('3 Max_values:' ,list[-3:])
+#for j in range(3):
+'''n=max(list)
+print(f'highest{j+1}values are:',n)
+list.remove(n)'''
