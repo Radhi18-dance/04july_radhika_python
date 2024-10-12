@@ -19,4 +19,5 @@ for k in key_search:
     if k in key_search:
         print("key exist in the dictionary.")
     else:
-        print("key not  exist in the dictionary.")
+        print("key not  exist in the dictionary.")  
+        print()

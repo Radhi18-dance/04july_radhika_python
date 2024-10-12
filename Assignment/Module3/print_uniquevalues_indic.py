@@ -2,8 +2,8 @@ d1={}
 d2=[]
 n1= int(input("Enter the number of key-value pairs: "))
 for i in range(n1):
-    key = input("Enter key : ".format(i+1))
-    value = input("Enter value for key : ".format(key))
+    key = input("Enter key : ")
+    value = input("Enter value for key : ")
     d1[key] = value
 print(d1)
 for i,j in d1.items():

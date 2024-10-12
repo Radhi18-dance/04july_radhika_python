@@ -6,4 +6,4 @@ for i in range(n):
     val = input(f"Enter {i+1} value: ")
     mydict[key] = val
 for key,val in mydict.items():
-     print(f"Key: {key}, Value: {val}")
+     print(f"Key: {key} Value: {val}")

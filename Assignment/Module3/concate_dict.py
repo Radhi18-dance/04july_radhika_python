@@ -18,4 +18,4 @@ print("dictionary 2 is:",dict(dic2))
 '''realdic=dic1.update(dic2)
 print("new one created dictionary is ",dict(realdic))'''
 realdic={**dic1,**dic2}
-print(realdic)
+print("concatenated dictionary is :",realdic)
