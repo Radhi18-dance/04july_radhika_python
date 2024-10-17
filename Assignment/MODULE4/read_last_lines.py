@@ -1,5 +1,11 @@
-fl=open('stdata.txt','r')
-n=5
-print(fl.readline()[-1:])
-if len('stdata.txt')>=n:
-    print('stdata.txt')
+file=open('stdata.txt','a')
+
+file=open('stdata.txt','r')
+
+n=int(input('How many Last lines You want to read?: '))
+
+list_data=file.readlines()[-n:]
+
+
+for i in list_data:
+    print(i)
